@@ -17,7 +17,7 @@ public class DriverManagerUsage {
         DriverManager.registerDriver(new org.hsqldb.jdbc.JDBCDriver());
 
         // Create the connection with the default credentials.
-        java.sql.Connection conn = DriverManager.getConnection("jdbc:hsqldb:mem:mydb", "SA", "");
+        //java.sql.Connection conn = DriverManager.getConnection("jdbc:hsqldb:mem:mydb", "SA", "");
 
         Enumeration<Driver> drivers = DriverManager.getDrivers();
         
