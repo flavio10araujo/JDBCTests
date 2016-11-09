@@ -5,7 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class StoredProcedure {
+public class StoredProcedureExample {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 	
